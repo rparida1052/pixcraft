@@ -55,12 +55,12 @@ const Dashboard = () => {
 
     try {
       const response = await axios({
-        method: 'post',
-        url: 'https://api.remove.bg/v1.0/removebg',
+        method: "post",
+        url: "https://api.remove.bg/v1.0/removebg",
         data: formData,
-        responseType: 'arraybuffer',
+        responseType: "arraybuffer",
         headers: {
-          'X-Api-Key': 'B74bHZqRnxBzA6jobJpizaPM',
+          "X-Api-Key": NEXT_REMOVE_BG_API_KEY,
         },
       });
 
