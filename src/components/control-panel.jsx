@@ -111,7 +111,7 @@ const ControlPanel = ({
         </Button>
         <p className="text-sm text-gray-500 mt-2">
           Note: To print without headers and footer please disable them in
-          your browser's print settings.
+          your browsers print settings.
         </p>
       </div>
     </div>
